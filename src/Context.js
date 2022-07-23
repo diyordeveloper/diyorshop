@@ -147,7 +147,7 @@ export function Context({ children }) {
         });
     } else {
       navigate("/login");
-      toast.success("Not Entered !");
+      toast.warning("Not Entered !");
     }
   }
 
