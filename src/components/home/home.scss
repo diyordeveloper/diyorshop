@@ -1,0 +1,33 @@
+.images{
+        height: 220px;
+        width: 100%;
+        overflow: hidden;
+    img{
+        height: 220px;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+    transition:0.5s ;
+    &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+.card_{
+    transition: 0.3s ;
+    &:hover{
+        box-shadow: 5px 5px 10px #cbcbcb;
+    }
+}
+
+.product_{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    .card{
+        width: 48%;
+        img{
+            object-fit: cover;
+        }
+    }
+}
