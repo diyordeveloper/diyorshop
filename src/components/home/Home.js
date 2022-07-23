@@ -46,7 +46,7 @@ function Home() {
                   <>
                     {products.length > 0 && (
                       <div className="col-9">
-                        <h1 className="text-center">All Products</h1>
+                        <h2 className="text-center">All Products</h2>
                         <div className="row">
                           {products
                             .filter(
