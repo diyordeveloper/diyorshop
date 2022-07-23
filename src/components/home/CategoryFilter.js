@@ -16,6 +16,7 @@ function CategoryFilter() {
     priceFilter,
     min,
     max,
+    products
   } = useUserContext();
 
   return (
@@ -32,7 +33,7 @@ function CategoryFilter() {
           value={priceFilter}
         />
         <button className="btn btn-danger mt-2" onClick={returntoAllProducts}>
-          All
+          All {products.length} Products
         </button>
         {categories.map((itm, idx) => (
           <button
